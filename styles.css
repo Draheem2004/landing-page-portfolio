@@ -1,0 +1,51 @@
+html,body{
+    font-family: 'Lato',  sans-serif;
+    font-weight: bold;
+    background: url(resources/images/NewBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-color: rgb(211, 172, 255);
+}
+    
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 35vmin;
+    margin-bottom: 35vmin;
+}
+
+
+
+hr {
+    max-width: 65px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    font-family: 'Lato';
+    font-size: medium;
+    font-weight: 300;
+    background-color: #4caf4f00;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s;
+    padding:5px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: grey;
+    transform: scale(1.2);
+}
